@@ -1,0 +1,14 @@
+{
+  "clientes": [
+    {"id": "101", "nombre": "Ana", "email": "ana@example.com"},
+    {"id": "102", "nombre": "Bruno", "email": "bruno@example.com"},
+    {"id": "103", "nombre": "Carla", "email": "carla@example.com"}
+  ],
+  "pedidos": [
+    {"id": "P-1001", "cliente_id": "101", "total": "12500.50", "estado": "pagado"},
+    {"id": "P-1002", "cliente_id": "101", "total": "4500.00", "estado": "pendiente"},
+    {"id": "P-1003", "cliente_id": "102", "total": "8500.00", "estado": "pagado"},
+    {"id": "P-1004", "cliente_id": "102", "total": "2999.99", "estado": "pagado"},
+    {"id": "P-1005", "cliente_id": "103", "total": "3000.00", "estado": "cancelado"}
+  ]
+}
